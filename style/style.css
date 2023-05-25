@@ -1,0 +1,223 @@
+
+
+/* =================================START HEADER=================== */
+.site-header {
+    background-color: transparent;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+.site-logo-wrap > h2 > a{
+   color: #53D572;
+}
+
+ul.menu-name {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+ul.menu-name >li >a {
+    color: #fff;
+}
+ul.menu-name >li >a:hover{
+    color: #53D572;
+}
+
+.nav-logo > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #53D572;
+   color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1;
+    padding: 20px;
+}
+.nav-logo > a:hover{
+    background-color: #17f34a;
+}
+/* ------------------------------------------------ p1s1 */
+.zi-3{
+    z-index: 3;
+}
+.item-p1s1 .item-main .content-wrap{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-p1s1 .item-main .title-wrap h2.text-end{
+    margin-top: -45px;
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 35px;
+}
+.banner-p1s1 .slick-next {
+    right: 34px;
+}
+.banner-p1s1 .slick-prev{
+    left: 17px;
+    z-index: 99;
+}
+
+/* ------------------------------------------------ p1s2 */
+.item-p1s2{
+    padding: 25px 0;
+}
+.item-p1s2 .content-wrap{
+    flex: 1;
+    margin-right:48px ;
+    
+}
+.item-p1s2 .main-item{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.item-p1s2 .img-wrap > img{
+    width: 100%;
+}
+
+
+/* ------------------------------------------------ p1s3 */
+.col-lg-6.item-p1s3.item-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0 90px 55px;
+}
+
+.item-p1s3.item-1 .img-wrap{
+    position:relative;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.item-p1s3.item-1 .img-wrap > img{
+    position:absolute;
+    width: 50vw;
+    max-width: 50vw;
+    height: 100%;
+    right: -1px;;
+    object-fit: cover;
+}
+
+
+/* ------------------------------------------------ p1s4 */
+.item-p1s4{
+    border: 1px solid #DFDFDF;
+    margin: 0 auto;
+    padding: 35px 25px;
+    gap: 40px;
+    display: flex;
+   
+}
+.item-p1s4 .img-wrap > img{
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.item-s4{
+    margin-right: 66px;
+}
+.item-p1s4 .col-item{
+    flex: 1;
+}
+.item-p1s4 .line{
+    background-color: #53D572;
+    width: 190px;
+    height: 10px;
+   margin-top: 96px;
+ 
+     
+}
+.item-p1s4 .item-s5 .content-wrap{
+    border: 1px solid  #53D572;
+    border-radius: 50%;
+ height: 86px;
+ width: 86px;
+   text-align: center;
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* ------------------------------------------------ p1s5 */
+.section-p1s5{
+    background-image: url(../img/p1s5.jpg);
+    background-attachment: fixed;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.section-p1s5 .main-slider-item{
+    padding-left:12px;
+ }
+
+ .section-p1s5 .slick-slide {
+    margin: 0 15px;
+}
+
+.section-p1s5 .titel-content-wrap{
+    margin-bottom: 35px;
+}
+
+.item-p1s5 .img-wrap >img{
+    height: 100%;
+    width: 100%;
+}
+.item-p1s5 .line{
+    background-color: #53D572;
+    width: 16%;
+    height: 6px;
+    margin: 12px 0;
+}
+
+/* ------------------------------------------------ p1s7 */
+.section-p1s7{
+    background-image: url(../img/p1s7.jpg);
+    object-fit:  none;
+    background-position: center ;
+}
+.section-p1s7 .content-wrap{
+    padding: 90px 0;
+}
+
+/* ------------------------------------------------ footer*/
+.footer-menu-name{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-menu-name >li >a{
+    color: #C1C1C1;
+}
+
+
+a.butn-6:hover{
+    color: #303030;
+    background-color: #FFFFFF;
+}
+.footer .row-item-2{
+    padding:  90px 0;
+}
+

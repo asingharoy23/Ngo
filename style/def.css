@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ===================================== Default CSS === START  */
+html {
+    font-size: 10px;
+    font-family: 'lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-wrap {
+    height: 100%;
+}
+
+a {
+    display: inline-flex;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ===================================== Default CSS === END  */
+
+
+
+/* =============================================================== Created Default Class === START  */
+/* ================================= Button -- START */
+a.butn, .butn, input.butn-submit, .butn-submit, .form-submit {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 140px;
+    min-height: 42px;
+    padding: 8px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    /* letter-spacing: 0.3px; */
+    border-radius: 25px;
+    color: #fff;
+    background-color: #53D572;
+    border: 1px solid transparent;
+}
+
+
+
+/* ============= Button Types */
+a.butn-1 {
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 400;
+    font-size: 11px;
+}
+a.butn-1:hover{
+    background-color:  #53D572;
+    color: #FFFFFF;
+}
+
+a.butn-2 {
+    font-size: 11px;
+    font-weight: 400;
+   
+}
+a.butn-2:hover{
+    background-color:#16c740;
+    color: #FFFFFF;
+}
+a.butn-3{
+    width: 160px;
+    height: 42px;
+}
+a.butn-3:hover{
+    background-color:#16c740;
+    color: #FFFFFF;
+}
+a.butn-4{
+    min-width: 210px;
+    min-height: 48px;
+    background-color: #ffffff;
+    color: #53D572;
+    font-size: 12px;
+}
+a.butn-4:hover{
+    background-color: transparent;
+    background-color:#ffffff;
+    color: black;
+    border: transparent;
+}
+a.butn-5{
+    font-size: 14px;
+    min-height: 51px;
+    min-width: 180px; 
+}
+a.butn-5:hover{
+    background-color:#16c740;
+    color: #FFFFFF;
+}
+a.butn-6{
+    border: 0.4px solid #4A4A4A;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #CBD6D6;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+}
+a.butn-6:hover{
+    color: #303030;
+    background-color: #FFFFFF;
+}
+/* ================================= Button -- END*/
+
+
+/* ================================  Background Colors -- START*/
+.bg-FFFFFF {
+    background-color: #FFFFFF;
+}
+
+.bg-53D572 {
+    background-color: #53D572;
+}
+
+.bg-303030 {
+    background-color: #303030;
+}
+
+
+/* ================================  Background Colors --  END*/
+
+
+
+/* ================================  Colors -- START*/
+.color-53D572 {
+    color: #53D572;
+}
+
+.color-FFFFFF {
+    color: #FFFFFF;
+}
+
+.color-C1C1C1 {
+    color: #C1C1C1;
+}
+
+
+/* ================================  Colors -- END*/
+
+
+/* ================================  Backgrounds -- START*/
+img.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overly-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ============================ Overly Types */
+.overly-block.overly-1 {
+    background-color: #273044;
+    opacity: 0.6;
+}
+
+/* ================================  Backgrounds -- END*/
+
+/* ================================  Sections -- START*/
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.row {
+    max-width: 100%;
+}
+/* .container {
+    width: 100%;
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+} */
+
+/* ================================  Sections -- END*/
+/* =============================================================== Created Default Class === END  */
